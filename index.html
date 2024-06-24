@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
     <link
       rel="stylesheet"
@@ -18,12 +18,6 @@
     />
   </head>
   <body>
-    <script>
-      import AOS from "aos";
-      // You can also use <link> for styles
-      // ..
-      AOS.init();
-    </script>
     <!-- ====== Header Section ======== -->
 
     <!-- end of header section -->
@@ -83,9 +77,13 @@
     <!-- ========= Slider Section =============  -->
     <section id="clients" class="clients section">
       <div
-        class="container aos-init aos-animate"
+        class="container"
         data-aos="fade-up"
-        data-aos-delay="100"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-once="false"
       >
         <div
           class="swiper init-swiper swiper-initialized swiper-horizontal swiper-backface-hidden"
@@ -305,17 +303,22 @@
       <div class="container">
         <div class="row gy-4">
           <div
-            class="features-image col-lg-6 aos-init aos-animate"
+            class="features-image col-lg-6"
             data-aos="fade-up"
             data-aos-delay="100"
+            data-aos-once="false"
           >
             <img src="./assets/images/features-bg.jpg" alt="" />
           </div>
           <div class="col-lg-6">
             <div
-              class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0 aos-init aos-animate"
+              class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0"
               data-aos="fade-up"
-              data-aos-delay="200"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-once="false"
             >
               <i class="bi bi-archive flex-shrink-0"></i>
               <div>
@@ -329,9 +332,13 @@
             <!-- End Features Item-->
 
             <div
-              class="features-item d-flex mt-5 ps-0 ps-lg-3 aos-init aos-animate"
+              class="features-item d-flex mt-5 ps-0 ps-lg-3"
               data-aos="fade-up"
-              data-aos-delay="300"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-once="false"
             >
               <i class="bi bi-basket flex-shrink-0"></i>
               <div>
@@ -345,9 +352,13 @@
             <!-- End Features Item-->
 
             <div
-              class="features-item d-flex mt-5 ps-0 ps-lg-3 aos-init aos-animate"
+              class="features-item d-flex mt-5 ps-0 ps-lg-3"
               data-aos="fade-up"
-              data-aos-delay="400"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-once="false"
             >
               <i class="bi bi-broadcast flex-shrink-0"></i>
               <div>
@@ -361,9 +372,13 @@
             <!-- End Features Item-->
 
             <div
-              class="features-item d-flex mt-5 ps-0 ps-lg-3 aos-init aos-animate"
+              class="features-item d-flex mt-5 ps-0 ps-lg-3"
               data-aos="fade-up"
-              data-aos-delay="500"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-once="false"
             >
               <i class="bi bi-camera-reels flex-shrink-0"></i>
               <div>
@@ -384,8 +399,13 @@
     <section id="services" class="services section">
       <!-- Section Title -->
       <div
-        class="container section-title aos-init aos-animate"
+        class="container section-title"
         data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-once="false"
       >
         <h2>Services</h2>
         <p>Check our Services</p>
@@ -395,9 +415,13 @@
       <div class="container">
         <div class="row gy-4">
           <div
-            class="col-lg-4 col-md-6 aos-init aos-animate"
+            class="col-lg-4 col-md-6"
             data-aos="fade-up"
-            data-aos-delay="100"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"
           >
             <div class="service-item position-relative">
               <div class="icon">
@@ -416,9 +440,13 @@
           <!-- End Service Item -->
 
           <div
-            class="col-lg-4 col-md-6 aos-init aos-animate"
+            class="col-lg-4 col-md-6"
             data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"
           >
             <div class="service-item position-relative">
               <div class="icon">
@@ -436,9 +464,13 @@
           <!-- End Service Item -->
 
           <div
-            class="col-lg-4 col-md-6 aos-init aos-animate"
+            class="col-lg-4 col-md-6"
             data-aos="fade-up"
-            data-aos-delay="300"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"
           >
             <div class="service-item position-relative">
               <div class="icon">
@@ -456,9 +488,13 @@
           <!-- End Service Item -->
 
           <div
-            class="col-lg-4 col-md-6 aos-init aos-animate"
+            class="col-lg-4 col-md-6"
             data-aos="fade-up"
-            data-aos-delay="400"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"
           >
             <div class="service-item position-relative">
               <div class="icon">
@@ -477,9 +513,13 @@
           <!-- End Service Item -->
 
           <div
-            class="col-lg-4 col-md-6 aos-init aos-animate"
+            class="col-lg-4 col-md-6"
             data-aos="fade-up"
-            data-aos-delay="500"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"
           >
             <div class="service-item position-relative">
               <div class="icon">
@@ -498,9 +538,13 @@
           <!-- End Service Item -->
 
           <div
-            class="col-lg-4 col-md-6 aos-init aos-animate"
+            class="col-lg-4 col-md-6"
             data-aos="fade-up"
-            data-aos-delay="600"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"
           >
             <div class="service-item position-relative">
               <div class="icon">
@@ -527,9 +571,13 @@
 
       <div class="container">
         <div
-          class="row justify-content-center aos-init aos-animate"
+          class="row justify-content-center"
           data-aos="zoom-in"
-          data-aos-delay="100"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="false"
         >
           <div class="col-xl-10">
             <div class="text-center">
@@ -550,5 +598,9 @@
     <button class="btn btn-primary">click</button>
     <script src="script.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
