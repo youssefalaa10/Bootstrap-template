@@ -8,9 +8,6 @@
     <!-- Include your custom CSS first -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link
-      rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
@@ -559,13 +556,8 @@
     <section id="portfolio" class="portfolio section">
       <!-- Section Title -->
       <div
-        class="container section-title"
-        data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-once="false">
+        class="container section-title aos-init aos-animate"
+        data-aos="fade-up">
         <h2>Portfolio</h2>
         <p>Check our Portfolio</p>
       </div>
@@ -578,13 +570,9 @@
           data-layout="masonry"
           data-sort="original-order">
           <ul
-            class="portfolio-filters isotope-filters"
+            class="portfolio-filters isotope-filters aos-init aos-animate"
             data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-once="false">
+            data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-app">App</li>
             <li data-filter=".filter-product">Card</li>
@@ -593,26 +581,22 @@
           <!-- End Portfolio Filters -->
 
           <div
-            class="row gy-4 isotope-container"
+            class="row gy-4 isotope-container aos-init aos-animate"
             data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-once="false"
+            data-aos-delay="200"
             style="position: relative; height: 1249.11px">
             <div
               class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
               style="position: absolute; left: 0px; top: 0px">
               <img
-                src="assets/images/masonry-portfolio-1.jpg"
+                src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
                 class="img-fluid"
                 alt="" />
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/images/masonry-portfolio-1.jpg"
+                  href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
                   title="App 1"
                   data-gallery="portfolio-gallery-app"
                   class="glightbox preview-link"
@@ -632,14 +616,14 @@
               class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
               style="position: absolute; left: 440px; top: 0px">
               <img
-                src="assets/images/masonry-portfolio-2.jpg"
+                src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
                 class="img-fluid"
                 alt="" />
               <div class="portfolio-info">
                 <h4>Product 1</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/images/masonry-portfolio-2.jpg"
+                  href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
                   title="Product 1"
                   data-gallery="portfolio-gallery-product"
                   class="glightbox preview-link"
@@ -659,14 +643,14 @@
               class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
               style="position: absolute; left: 880px; top: 0px">
               <img
-                src="assets/images/masonry-portfolio-3.jpg"
+                src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
                 class="img-fluid"
                 alt="" />
               <div class="portfolio-info">
                 <h4>Branding 1</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/images/masonry-portfolio-3.jpg"
+                  href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
                   title="Branding 1"
                   data-gallery="portfolio-gallery-branding"
                   class="glightbox preview-link"
@@ -686,14 +670,14 @@
               class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
               style="position: absolute; left: 880px; top: 258px">
               <img
-                src="assets/images/masonry-portfolio-4.jpg"
+                src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
                 class="img-fluid"
                 alt="" />
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/images/masonry-portfolio-4.jpg"
+                  href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
                   title="App 2"
                   data-gallery="portfolio-gallery-app"
                   class="glightbox preview-link"
@@ -713,14 +697,14 @@
               class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
               style="position: absolute; left: 440px; top: 302.922px">
               <img
-                src="assets/images/masonry-portfolio-5.jpg"
+                src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
                 class="img-fluid"
                 alt="" />
               <div class="portfolio-info">
                 <h4>Product 2</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/images/masonry-portfolio-5.jpg"
+                  href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
                   title="Product 2"
                   data-gallery="portfolio-gallery-product"
                   class="glightbox preview-link"
@@ -740,14 +724,14 @@
               class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
               style="position: absolute; left: 0px; top: 445.703px">
               <img
-                src="assets/images/masonry-portfolio-6.jpg"
+                src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
                 class="img-fluid"
                 alt="" />
               <div class="portfolio-info">
                 <h4>Branding 2</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/images/masonry-portfolio-6.jpg"
+                  href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
                   title="Branding 2"
                   data-gallery="portfolio-gallery-branding"
                   class="glightbox preview-link"
@@ -767,14 +751,14 @@
               class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
               style="position: absolute; left: 880px; top: 557.078px">
               <img
-                src="assets/images/masonry-portfolio-7.jpg"
+                src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
                 class="img-fluid"
                 alt="" />
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/images/masonry-portfolio-7.jpg"
+                  href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
                   title="App 3"
                   data-gallery="portfolio-gallery-app"
                   class="glightbox preview-link"
@@ -794,14 +778,14 @@
               class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
               style="position: absolute; left: 880px; top: 851.109px">
               <img
-                src="assets/images/masonry-portfolio-8.jpg"
+                src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
                 class="img-fluid"
                 alt="" />
               <div class="portfolio-info">
                 <h4>Product 3</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/images/masonry-portfolio-8.jpg"
+                  href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
                   title="Product 3"
                   data-gallery="portfolio-gallery-product"
                   class="glightbox preview-link"
@@ -821,14 +805,14 @@
               class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
               style="position: absolute; left: 440px; top: 948.766px">
               <img
-                src="assets/images/masonry-portfolio-9.jpg"
+                src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
                 class="img-fluid"
                 alt="" />
               <div class="portfolio-info">
                 <h4>Branding 3</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/images/masonry-portfolio-9.jpg"
+                  href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
                   title="Branding 2"
                   data-gallery="portfolio-gallery-branding"
                   class="glightbox preview-link"
@@ -851,12 +835,12 @@
 
     <!-- End Portofolio -->
 
+    <button class="btn btn-primary">click</button>
     <script src="script.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>

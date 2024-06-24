@@ -294,15 +294,6 @@ section,
   margin: 4px 10px;
 }
 
-.section-title p {
-  color: var(--heading-color);
-  margin: 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 70px;
-}
-
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
