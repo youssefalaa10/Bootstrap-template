@@ -11,7 +11,7 @@
 }
 
 body {
-  color: var(--default-color);
+  color: #ffffff;
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
@@ -29,7 +29,7 @@ a:hover {
 
 section,
 .section {
-  color: var(--default-color);
+  color: #ffffff;
   background-color: var(--background-color);
   padding: 60px 0;
   scroll-margin-top: 80px;
@@ -43,7 +43,7 @@ section,
 }
 
 .about .content .fst-italic {
-  color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
+  color: color-mix(in srgb, #ffffff, var(--contrast-color) 50%);
 }
 
 .about .content ul {
@@ -100,7 +100,7 @@ section,
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  background-color: color-mix(in srgb, #ffffff, transparent 80%);
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
@@ -144,7 +144,7 @@ section,
 
 .features .features-item p {
   font-size: 15px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, #ffffff, transparent 20%);
   margin: 0;
 }
 
@@ -153,7 +153,7 @@ section,
 /* === Check Our Services ===*/
 .services .service-item {
   text-align: center;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border: 1px solid color-mix(in srgb, #ffffff, transparent 85%);
   padding: 80px 20px;
   height: 100%;
   transition: all ease-in-out 0.3s;
@@ -192,8 +192,7 @@ section,
 }
 
 .services .service-item:hover {
-  box-shadow: 0px 0 25px 0
-    color-mix(in srgb, var(--default-color), transparent 92%);
+  box-shadow: 0px 0 25px 0 color-mix(in srgb, #ffffff, transparent 92%);
   transform: translateY(-10px);
 }
 
@@ -241,11 +240,11 @@ section,
 .call-to-action h3 {
   font-size: 28px;
   font-weight: 700;
-  color: var(--default-color);
+  color: #ffffff;
 }
 
 .call-to-action p {
-  color: var(--default-color);
+  color: #ffffff;
 }
 
 .call-to-action .cta-btn {
@@ -281,7 +280,7 @@ section,
   margin: 0;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, #ffffff, transparent 50%);
   position: relative;
 }
 
@@ -369,7 +368,7 @@ section,
 }
 
 .portfolio .portfolio-item .portfolio-info p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: color-mix(in srgb, #ffffff, transparent 30%);
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 50px;
@@ -381,7 +380,7 @@ section,
   right: 50px;
   font-size: 24px;
   top: calc(50% - 14px);
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: color-mix(in srgb, #ffffff, transparent 30%);
   transition: 0.3s;
   line-height: 0;
 }
@@ -424,7 +423,7 @@ section,
 }
 
 .stats .stats-item p {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, #ffffff, transparent 40%);
   padding: 15px 0 0 0;
   margin: 0;
   font-family: var(--heading-font);
@@ -479,7 +478,6 @@ section,
 }
 
 .testimonials .testimonial-item h3 {
-  color: #fff;
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
@@ -551,75 +549,4 @@ section,
   .testimonials .testimonial-item p {
     width: 80%;
   }
-}
-
-/*--------------------------------------------------------------
-# Team Section
---------------------------------------------------------------*/
-.team .team-member {
-  background-color: var(--surface-color);
-  overflow: hidden;
-  border-radius: 5px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  height: 100%;
-}
-
-.team .team-member .member-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.team .team-member .social {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  right: 0;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
-}
-
-.team .team-member .social a {
-  background: color-mix(in srgb, var(--contrast-color), transparent 25%);
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin: 0 3px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  transition: ease-in-out 0.3s;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.team .team-member .social a:hover {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-}
-
-.team .team-member .social i {
-  font-size: 18px;
-  line-height: 0;
-}
-
-.team .team-member .member-info {
-  padding: 25px 15px;
-}
-
-.team .team-member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-}
-
-.team .team-member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.team .team-member:hover .social {
-  opacity: 1;
-  bottom: 15px;
 }

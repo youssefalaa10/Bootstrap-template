@@ -11,7 +11,7 @@
 }
 
 body {
-  color: var(--default-color);
+  color: #ffffff;
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
@@ -29,7 +29,7 @@ a:hover {
 
 section,
 .section {
-  color: var(--default-color);
+  color: #ffffff;
   background-color: var(--background-color);
   padding: 60px 0;
   scroll-margin-top: 80px;
@@ -43,7 +43,7 @@ section,
 }
 
 .about .content .fst-italic {
-  color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
+  color: color-mix(in srgb, #ffffff, var(--contrast-color) 50%);
 }
 
 .about .content ul {
@@ -100,7 +100,7 @@ section,
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  background-color: color-mix(in srgb, #ffffff, transparent 80%);
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
@@ -144,7 +144,7 @@ section,
 
 .features .features-item p {
   font-size: 15px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, #ffffff, transparent 20%);
   margin: 0;
 }
 
@@ -153,7 +153,7 @@ section,
 /* === Check Our Services ===*/
 .services .service-item {
   text-align: center;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border: 1px solid color-mix(in srgb, #ffffff, transparent 85%);
   padding: 80px 20px;
   height: 100%;
   transition: all ease-in-out 0.3s;
@@ -192,8 +192,7 @@ section,
 }
 
 .services .service-item:hover {
-  box-shadow: 0px 0 25px 0
-    color-mix(in srgb, var(--default-color), transparent 92%);
+  box-shadow: 0px 0 25px 0 color-mix(in srgb, #ffffff, transparent 92%);
   transform: translateY(-10px);
 }
 
@@ -241,11 +240,11 @@ section,
 .call-to-action h3 {
   font-size: 28px;
   font-weight: 700;
-  color: var(--default-color);
+  color: #ffffff;
 }
 
 .call-to-action p {
-  color: var(--default-color);
+  color: #ffffff;
 }
 
 .call-to-action .cta-btn {
@@ -281,7 +280,7 @@ section,
   margin: 0;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, #ffffff, transparent 50%);
   position: relative;
 }
 
@@ -369,7 +368,7 @@ section,
 }
 
 .portfolio .portfolio-item .portfolio-info p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: color-mix(in srgb, #ffffff, transparent 30%);
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 50px;
@@ -381,7 +380,7 @@ section,
   right: 50px;
   font-size: 24px;
   top: calc(50% - 14px);
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: color-mix(in srgb, #ffffff, transparent 30%);
   transition: 0.3s;
   line-height: 0;
 }
@@ -424,7 +423,7 @@ section,
 }
 
 .stats .stats-item p {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, #ffffff, transparent 40%);
   padding: 15px 0 0 0;
   margin: 0;
   font-family: var(--heading-font);
@@ -479,7 +478,6 @@ section,
 }
 
 .testimonials .testimonial-item h3 {
-  color: #fff;
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
@@ -622,4 +620,83 @@ section,
 .team .team-member:hover .social {
   opacity: 1;
   bottom: 15px;
+}
+
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+.contact .info-item + .info-item {
+  margin-top: 40px;
+}
+
+.contact .info-item i {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-size: 20px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+
+.contact .info-item h3 {
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.contact .info-item p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.contact .php-email-form {
+  height: 100%;
+}
+
+.contact .php-email-form input[type="text"],
+.contact .php-email-form input[type="email"],
+.contact .php-email-form textarea {
+  font-size: 14px;
+  padding: 10px 15px;
+  box-shadow: none;
+  border-radius: 0;
+  color: var(--default-color);
+  background-color: color-mix(
+    in srgb,
+    var(--background-color),
+    transparent 50%
+  );
+  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+}
+
+.contact .php-email-form input[type="text"]:focus,
+.contact .php-email-form input[type="email"]:focus,
+.contact .php-email-form textarea:focus {
+  border-color: var(--accent-color);
+}
+
+.contact .php-email-form input[type="text"]::placeholder,
+.contact .php-email-form input[type="email"]::placeholder,
+.contact .php-email-form textarea::placeholder {
+  color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+.contact .php-email-form button[type="submit"] {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
