@@ -6,13 +6,283 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bootstrap Template</title>
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- <button class="btn btn-primary">click</button> -->
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container p-2">
+      <div class="d-flex w-100 align-items-center justify-content-between">
+
+        <div class="w-25">
+          <a href="index.html" class="logo d-flex align-items-center justify-content-start">
+            <h1>GP</h1>
+            <span class="main-color fw-bolder">.</span>
+          </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse m-auto" id="navbarSupportedContent">
+
+          <ul class="navbar-nav d-flex justify-content-center align-items-center ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Team">Team</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#home">Dropdown 1</a></li>
+
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Deep Dropdown</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown 5</a></li>
+                  </ul>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="w-25 d-flex align-items-center justify-content-end">
+          <button class="btn btn-outline-warning text-white pe-4 ps-4 " type="submit">Get Started</button>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <!-- header -->
+  <header class="vh-100 w-100 pt-5" id="home">
+    <div class="layer h-100 pb-5 pt-5  d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row text-center">
+          <div class="header-content col-12 text-white">
+            <h2 class="">Powerful Digital Solutions With GP<span class="main-color fw-bolder">.</span></h2>
+            <p>We are team of talented digital marketers</p>
+          </div>
+          <div class="header-icons col-12 row justify-content-center align-items-center g-2">
+            <div class="item-header col-xl-2 col-md-4 ">
+              <div class="box-icon d-flex flex-column justify-content-center align-content-center p-4  border border-1">
+                <i class="fa-solid fa-binoculars main-color"></i>
+                <h3><a href="index.html">Lorem ipsum
+                  </a></h3>
+              </div>
+            </div>
+            <div class="item-header col-xl-2 col-md-4">
+              <div class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
+                <i class="fa-solid fa-bullseye  main-color"></i>
+                <h3><a href="index.html">Dolor Sitema</a></h3>
+              </div>
+            </div>
+            <div class="item-header col-xl-2 col-md-4 ">
+              <div class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
+                <i class="fa-solid fa-compress  main-color"></i>
+                <h3><a href="index.html">Sedare Perspiciatis</a></h3>
+              </div>
+            </div>
+            <div class="item-header col-xl-2 col-md-4 ">
+              <div class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
+                <i class="fa-regular fa-address-card main-color"></i>
+                <h3><a href="index.html">Magni Dolores</a></h3>
+              </div>
+            </div>
+            <div class="item-header col-xl-2 col-md-4">
+              <div class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
+                <i class="fa-regular fa-gem main-color"></i>
+                <h3><a href="index.html">Nemos Enimade</a></h3>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- section stats -->
+
+  <section class="stats  pt-5 pb-5">
+    <div class="container d-flex justify-content-center align-content-center">
+      <div class="row align-items-center justify-content-between g-5">
+
+        <div class="col-xl-5">
+          <img src="assets/img/stats-img.jpg" alt="stats" class="w-100 img-fluid">
+        </div>
+
+        <div class="col-xl-6">
+
+          <h2 class="fw-bold fs-2">Voluptatem dignissimos provident quasi</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Duis aute irure dolor in reprehenderit
+          </p>
+
+          <div class="row gy-4">
+
+            <div class="col-lg-6">
+              <div class="d-flex p-1">
+                <div class="icon  pt-3 pe-3">
+                  <i class="fa-regular fa-face-smile" style="color: #FFD43B;font-size:3rem;"></i>
+                </div>
+                <div class="number">
+                  <span class="fw-bold">232</span>
+                  <p><span class="fw-bold">Happy Clients</span>consequuntur quae</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="d-flex p-1">
+                <div class="icon  pt-3 pe-3">
+                  <i class="fa-regular fa-newspaper" style="color: #FFD43B;font-size:3rem;"></i>
+                </div>
+                <div class="number">
+                  <span class="fw-bold">521</span>
+                  <p><span class="fw-bold">Projects</span> adipisci atque cum quia aut</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="d-flex p-1">
+                <div class="icon  pt-3 pe-3">
+                  <i class="fa-solid fa-headset" style="color: #FFD43B;font-size:3rem;"></i>
+                </div>
+                <div class="number">
+                  <span class="fw-bold">1453</span>
+                  <p><span class="fw-bold">Hours Of Support</span> aut commodi quaerat</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="d-flex p-1">
+                <div class="icon  pt-3 pe-3">
+                  <i class="fa-solid fa-user-group" style="color: #FFD43B;font-size:3rem;"></i>
+                </div>
+                <div class="number">
+                  <span class="fw-bold">23</span>
+                  <p><span class="fw-bold">Hard Workers</span>
+                    rerum asperiores dolor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- section footer -->
+  <footer class="bg-black">
+    <div class="section1-footer pt-5 pb-5">
+      <div class="container">
+        <div class="row justify-content-center align-content-center">
+
+          <div class="col-lg-4 col-md-6 text-white  footer-info">
+            <a href="index.html" class="logo fw-bold fs-3">GP</a>
+
+            <div class="">
+              <p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+              <p><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+              <p><strong>Email:</strong> <span>info@example.com</span></p>
+            </div>
+
+            <div class="social-links d-flex justify-content-between w-50 p-1 pb-2 pt-2">
+              <a href="https://x.com/?lang=en" target="_blank" class=""><i class="fa-brands fa-x-twitter"></i> </a>
+              <a href="https://web.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-2 col-md-3  footer-links text-white ">
+            <h4 class="">Useful Links</h4>
+            <ul class="p-0 useful-links">
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#"> Home</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#"> About us</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#"> Services</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#"> Terms of service</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#"> Privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3  footer-links   text-white">
+            <h4 class="">Our Services</h4>
+            <ul class="p-0 our-services">
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#"> Web Design</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#">Web Development</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#">Product Management</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#">Markating</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-newsletter text-white">
+            <h4>Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form class="email-form pt-5">
+              <div class="newsletter-form d-flex justify-content-around">
+                <input type="email" name="email" class="w-100 p-2 btn">
+                <input type="submit" value="Subscribe" class="btn">
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="section2-footer container-fluid">
+      <div class="row  flex-column justify-content-center align-content-center p-4">
+        <div class="col-6 text-center">
+          <p class="text-white fw-bold">© Copyright GP All Rights Reserved</p>
+          <p class="text-white">Designed by <a href="https://bootstrapmade.com" target="_blank"
+              class="main-color color-change text-decoration-none">BootstrapMade</a> </p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
   <script src="script.js"></script>
-  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
