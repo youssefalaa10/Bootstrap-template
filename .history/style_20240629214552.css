@@ -11,7 +11,7 @@
 }
 
 body {
-  color: #ffffff;
+  color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
@@ -29,7 +29,7 @@ a:hover {
 
 section,
 .section {
-  color: #ffffff;
+  color: var(--default-color);
   background-color: var(--background-color);
   padding: 60px 0;
   scroll-margin-top: 80px;
@@ -43,7 +43,7 @@ section,
 }
 
 .about .content .fst-italic {
-  color: color-mix(in srgb, #ffffff, var(--contrast-color) 50%);
+  color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
 }
 
 .about .content ul {
@@ -100,7 +100,7 @@ section,
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: color-mix(in srgb, #ffffff, transparent 80%);
+  background-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
@@ -144,7 +144,7 @@ section,
 
 .features .features-item p {
   font-size: 15px;
-  color: color-mix(in srgb, #ffffff, transparent 20%);
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin: 0;
 }
 
@@ -153,7 +153,7 @@ section,
 /* === Check Our Services ===*/
 .services .service-item {
   text-align: center;
-  border: 1px solid color-mix(in srgb, #ffffff, transparent 85%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   padding: 80px 20px;
   height: 100%;
   transition: all ease-in-out 0.3s;
@@ -192,7 +192,8 @@ section,
 }
 
 .services .service-item:hover {
-  box-shadow: 0px 0 25px 0 color-mix(in srgb, #ffffff, transparent 92%);
+  box-shadow: 0px 0 25px 0
+    color-mix(in srgb, var(--default-color), transparent 92%);
   transform: translateY(-10px);
 }
 
@@ -240,11 +241,11 @@ section,
 .call-to-action h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--default-color);
 }
 
 .call-to-action p {
-  color: #ffffff;
+  color: var(--default-color);
 }
 
 .call-to-action .cta-btn {
@@ -280,7 +281,7 @@ section,
   margin: 0;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: color-mix(in srgb, #ffffff, transparent 50%);
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
   position: relative;
 }
 
@@ -368,7 +369,7 @@ section,
 }
 
 .portfolio .portfolio-item .portfolio-info p {
-  color: color-mix(in srgb, #ffffff, transparent 30%);
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 50px;
@@ -380,7 +381,7 @@ section,
   right: 50px;
   font-size: 24px;
   top: calc(50% - 14px);
-  color: color-mix(in srgb, #ffffff, transparent 30%);
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
   transition: 0.3s;
   line-height: 0;
 }
@@ -423,7 +424,7 @@ section,
 }
 
 .stats .stats-item p {
-  color: color-mix(in srgb, #ffffff, transparent 40%);
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
   padding: 15px 0 0 0;
   margin: 0;
   font-family: var(--heading-font);
@@ -473,7 +474,7 @@ section,
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
-  border: 6px solid color-mix(in srgb, #ffffff, transparent 85%);
+  border: 6px solid color-mix(in srgb, var(--default-color), transparent 85%);
   margin: 0 auto;
 }
 
@@ -486,7 +487,7 @@ section,
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   margin: 0 0 15px 0;
-  color: color-mix(in srgb, #ffffff, transparent 40%);
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
 .testimonials .testimonial-item .stars {
@@ -500,7 +501,7 @@ section,
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, #ffffff, transparent 40%);
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
   font-size: 26px;
   line-height: 0;
 }
@@ -536,12 +537,12 @@ section,
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: color-mix(in srgb, #ffffff, transparent 50%);
+  background-color: color-mix(in srgb, var(--default-color), transparent 50%);
   opacity: 0.5;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffffff;
+  background-color: var(--default-color);
   opacity: 1;
 }
 
