@@ -869,6 +869,7 @@ ropdown-item.active,
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
+  color: #fff;
 }
 
 .footer .footer-links {
@@ -919,7 +920,7 @@ ropdown-item.active,
   padding: 6px 8px;
   position: relative;
   border-radius: 4px;
-  border: 1px solid color-mix(in srgb, #ddd, transparent 80%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
   display: flex;
   background-color: color-mix(
     in srgb,

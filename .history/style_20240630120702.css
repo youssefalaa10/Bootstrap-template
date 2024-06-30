@@ -919,7 +919,7 @@ ropdown-item.active,
   padding: 6px 8px;
   position: relative;
   border-radius: 4px;
-  border: 1px solid color-mix(in srgb, #ddd, transparent 80%);
+  border: 1px solid color-mix(in srgb, #dd, transparent 80%);
   display: flex;
   background-color: color-mix(
     in srgb,

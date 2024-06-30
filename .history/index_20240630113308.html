@@ -21,112 +21,100 @@
   <body>
     <!-- ====== Header Section ======== -->
 
-    <!-- header -->
-    <header class="vh-100 w-100" id="home">
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg">
-        <div class="container p-2">
-          <div class="d-flex w-100 align-items-center justify-content-between">
-            <div class="w-25">
-              <a
-                href="index.html"
-                class="logo d-flex align-items-center justify-content-start text-white text-decoration-none">
-                <h1>GP</h1>
-                <span class="main-color fw-bolder">.</span>
-              </a>
-            </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container p-2">
+        <div class="d-flex w-100 align-items-center justify-content-between">
+          <div class="w-25">
+            <a
+              href="index.html"
+              class="logo d-flex align-items-center justify-content-start">
+              <h1>GP</h1>
+              <span class="main-color fw-bolder">.</span>
+            </a>
+          </div>
 
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse m-auto"
+            id="navbarSupportedContent">
+            <ul
+              class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Team">Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#home">Dropdown 1</a></li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">
+                      Deep Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                      <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                      <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                      <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                      <li><a class="dropdown-item" href="#">Dropdown 5</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-25 d-flex align-items-center justify-content-end">
             <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              class="btn btn-outline-warning text-white pe-4 ps-4"
+              type="submit">
+              Get Started
             </button>
-
-            <div
-              class="collapse navbar-collapse m-auto"
-              id="navbarSupportedContent">
-              <ul
-                class="navbar-nav d-flex justify-content-center align-items-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#home">
-                    Home
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#About">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Services">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Team">Team</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#home">Dropdown 1</a>
-                    </li>
-
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-item dropdown-toggle" href="#">
-                        Deep Dropdown
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li>
-                          <a class="dropdown-item" href="#">Dropdown 1</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Dropdown 2</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Dropdown 3</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Dropdown 4</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Dropdown 5</a>
-                        </li>
-                      </ul>
-                    </li>
-
-                    <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
-                    <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
-                    <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="w-25 d-flex align-items-center justify-content-end">
-              <button
-                class="btn btn-outline-warning text-white pe-4 ps-4"
-                type="submit">
-                Get Started
-              </button>
-            </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <!-- header -->
+    <header class="vh-100 w-100 pt-5" id="home">
       <div
         class="layer h-100 pb-5 pt-5 d-flex justify-content-center align-items-center">
         <div class="container">
@@ -146,55 +134,35 @@
                 <div
                   class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
                   <i class="fa-solid fa-binoculars main-color"></i>
-                  <h3>
-                    <a href="index.html" class="text-white text-decoration-none"
-                      >Lorem ipsum
-                    </a>
-                  </h3>
+                  <h3><a href="index.html">Lorem ipsum </a></h3>
                 </div>
               </div>
               <div class="item-header col-xl-2 col-md-4">
                 <div
                   class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
                   <i class="fa-solid fa-bullseye main-color"></i>
-                  <h3>
-                    <a href="index.html" class="text-white text-decoration-none"
-                      >Dolor Sitema</a
-                    >
-                  </h3>
+                  <h3><a href="index.html">Dolor Sitema</a></h3>
                 </div>
               </div>
               <div class="item-header col-xl-2 col-md-4">
                 <div
                   class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
                   <i class="fa-solid fa-compress main-color"></i>
-                  <h3>
-                    <a href="index.html" class="text-white text-decoration-none"
-                      >Sedare Perspiciatis</a
-                    >
-                  </h3>
+                  <h3><a href="index.html">Sedare Perspiciatis</a></h3>
                 </div>
               </div>
               <div class="item-header col-xl-2 col-md-4">
                 <div
                   class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
                   <i class="fa-regular fa-address-card main-color"></i>
-                  <h3>
-                    <a href="index.html" class="text-white text-decoration-none"
-                      >Magni Dolores</a
-                    >
-                  </h3>
+                  <h3><a href="index.html">Magni Dolores</a></h3>
                 </div>
               </div>
               <div class="item-header col-xl-2 col-md-4">
                 <div
                   class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
                   <i class="fa-regular fa-gem main-color"></i>
-                  <h3>
-                    <a href="index.html" class="text-white text-decoration-none"
-                      >Nemos Enimade</a
-                    >
-                  </h3>
+                  <h3><a href="index.html">Nemos Enimade</a></h3>
                 </div>
               </div>
             </div>
@@ -573,9 +541,7 @@
               <div class="icon">
                 <i class="bi bi-activity"></i>
               </div>
-              <a
-                href="service-details.html"
-                class="stretched-link text-black text-decoration-none">
+              <a href="service-details.html" class="stretched-link">
                 <h3>Nesciunt Mete</h3>
               </a>
               <p>
@@ -599,9 +565,7 @@
               <div class="icon">
                 <i class="bi bi-broadcast"></i>
               </div>
-              <a
-                href="service-details.html"
-                class="stretched-link text-black text-decoration-none">
+              <a href="service-details.html" class="stretched-link">
                 <h3>Eosle Commodi</h3>
               </a>
               <p>
@@ -624,9 +588,7 @@
               <div class="icon">
                 <i class="bi bi-easel"></i>
               </div>
-              <a
-                href="service-details.html"
-                class="stretched-link text-black text-decoration-none">
+              <a href="service-details.html" class="stretched-link">
                 <h3>Ledo Markt</h3>
               </a>
               <p>
@@ -649,9 +611,7 @@
               <div class="icon">
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
-              <a
-                href="service-details.html"
-                class="stretched-link text-black text-decoration-none">
+              <a href="service-details.html" class="stretched-link">
                 <h3>Asperiores Commodit</h3>
               </a>
               <p>
@@ -675,9 +635,7 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a
-                href="service-details.html"
-                class="stretched-link text-black text-decoration-none">
+              <a href="service-details.html" class="stretched-link">
                 <h3>Velit Doloremque</h3>
               </a>
               <p>
@@ -701,9 +659,7 @@
               <div class="icon">
                 <i class="bi bi-chat-square-text"></i>
               </div>
-              <a
-                href="service-details.html"
-                class="stretched-link text-black text-decoration-none">
+              <a href="service-details.html" class="stretched-link">
                 <h3>Dolori Architecto</h3>
               </a>
               <p>
@@ -1650,122 +1606,6 @@
     </section>
 
     <!-- End Contact Section -->
-
-    <!-- Start Footer -->
-    <footer id="footer" class="footer dark-background">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-4 col-md-6 footer-about">
-              <a
-                href="index.html"
-                class="logo d-flex align-items-center text-white text-decoration-none">
-                <span class="sitename text-white">GP</span>
-              </a>
-              <div class="footer-contact pt-3">
-                <p>A108 Adam Street</p>
-                <p>New York, NY 535022</p>
-                <p class="mt-3">
-                  <strong>Phone:</strong> <span>+1 5589 55488 55</span>
-                </p>
-                <p><strong>Email:</strong> <span>info@example.com</span></p>
-              </div>
-              <div class="social-links d-flex mt-4">
-                <a href=""><i class="bi bi-twitter-x"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#"> Home</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#"> About us</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#"> Services</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Terms of service</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Privacy policy</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Web Design</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Web Development</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Product Management</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#"> Marketing</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Graphic Design</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-4 col-md-12 footer-newsletter">
-              <h4>Our Newsletter</h4>
-              <p>
-                Subscribe to our newsletter and receive the latest news about
-                our products and services!
-              </p>
-              <form
-                action="forms/newsletter.php"
-                method="post"
-                class="php-email-form">
-                <div class="newsletter-form">
-                  <input type="email" name="email" /><input
-                    type="submit"
-                    value="Subscribe" />
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="copyright">
-        <div class="container text-center">
-          <p>
-            © <span>Copyright</span> <strong class="px-1 sitename">GP</strong>
-            <span>All Rights Reserved</span>
-          </p>
-          <div class="credits">
-            Designed by
-            <a
-              href="https://bootstrapmade.com/"
-              style="color: var(--accent-color); text-decoration: none"
-              >BootstrapMade</a
-            >
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- End Footer -->
 
     <script src="script.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

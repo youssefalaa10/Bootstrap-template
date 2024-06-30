@@ -846,8 +846,8 @@ ropdown-item.active,
 }
 
 .footer .social-links a {
-  color: color-mix(in srgb, #fff, transparent 30%);
-  background-color: color-mix(in srgb, #fff 5%, white 10%);
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  background-color: color-mix(in srgb, var(--default-color) 5%, white 10%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -899,10 +899,9 @@ ropdown-item.active,
 }
 
 .footer .footer-links ul a {
-  color: color-mix(in srgb, #fff, transparent 30%);
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
   display: inline-block;
   line-height: 1;
-  text-decoration: none;
 }
 
 .footer .footer-links ul a:hover {
@@ -919,7 +918,7 @@ ropdown-item.active,
   padding: 6px 8px;
   position: relative;
   border-radius: 4px;
-  border: 1px solid color-mix(in srgb, #ddd, transparent 80%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
   display: flex;
   background-color: color-mix(
     in srgb,

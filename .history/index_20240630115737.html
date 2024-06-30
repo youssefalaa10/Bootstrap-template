@@ -1652,94 +1652,96 @@
     <!-- End Contact Section -->
 
     <!-- Start Footer -->
-    <footer id="footer" class="footer dark-background">
-      <div class="footer-top">
+    <footer class="bg-black">
+      <div class="section1-footer pt-5 pb-5">
         <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-4 col-md-6 footer-about">
-              <a
-                href="index.html"
-                class="logo d-flex align-items-center text-white text-decoration-none">
-                <span class="sitename text-white">GP</span>
-              </a>
-              <div class="footer-contact pt-3">
+          <div class="row justify-content-center align-content-center">
+            <div class="col-lg-4 col-md-6 text-white footer-info">
+              <a href="index.html" class="logo fw-bold fs-3">GP</a>
+
+              <div class="">
                 <p>A108 Adam Street</p>
                 <p>New York, NY 535022</p>
-                <p class="mt-3">
-                  <strong>Phone:</strong> <span>+1 5589 55488 55</span>
-                </p>
+                <p><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
                 <p><strong>Email:</strong> <span>info@example.com</span></p>
               </div>
-              <div class="social-links d-flex mt-4">
-                <a href=""><i class="bi bi-twitter-x"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+
+              <div
+                class="social-links d-flex justify-content-between w-50 p-1 pb-2 pt-2">
+                <a href="https://x.com/?lang=en" target="_blank" class=""
+                  ><i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://web.facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
+            <div class="col-lg-2 col-md-3 footer-links text-white">
+              <h4 class="">Useful Links</h4>
+              <ul class="p-0 useful-links">
                 <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#"> Home</a>
+                  <i class="fa-solid fa-chevron-right"></i><a href="#"> Home</a>
                 </li>
                 <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#"> About us</a>
+                  <i class="fa-solid fa-chevron-right"></i
+                  ><a href="#"> About us</a>
                 </li>
                 <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#"> Services</a>
+                  <i class="fa-solid fa-chevron-right"></i
+                  ><a href="#"> Services</a>
                 </li>
                 <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Terms of service</a>
+                  <i class="fa-solid fa-chevron-right"></i
+                  ><a href="#"> Terms of service</a>
                 </li>
                 <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Privacy policy</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Web Design</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Web Development</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Product Management</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#"> Marketing</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Graphic Design</a>
+                  <i class="fa-solid fa-chevron-right"></i
+                  ><a href="#"> Privacy policy</a>
                 </li>
               </ul>
             </div>
-
-            <div class="col-lg-4 col-md-12 footer-newsletter">
+            <div class="col-lg-2 col-md-3 footer-links text-white">
+              <h4 class="">Our Services</h4>
+              <ul class="p-0 our-services">
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i
+                  ><a href="#"> Web Design</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i
+                  ><a href="#">Web Development</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i
+                  ><a href="#">Product Management</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i
+                  ><a href="#">Markating</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i
+                  ><a href="#">Graphic Design</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 footer-newsletter text-white">
               <h4>Our Newsletter</h4>
               <p>
                 Subscribe to our newsletter and receive the latest news about
                 our products and services!
               </p>
-              <form
-                action="forms/newsletter.php"
-                method="post"
-                class="php-email-form">
-                <div class="newsletter-form">
-                  <input type="email" name="email" /><input
-                    type="submit"
-                    value="Subscribe" />
+              <form class="email-form pt-5">
+                <div class="newsletter-form d-flex justify-content-around">
+                  <input type="email" name="email" class="w-100 p-2 btn" />
+                  <input type="submit" value="Subscribe" class="btn" />
                 </div>
               </form>
             </div>
@@ -1747,19 +1749,20 @@
         </div>
       </div>
 
-      <div class="copyright">
-        <div class="container text-center">
-          <p>
-            © <span>Copyright</span> <strong class="px-1 sitename">GP</strong>
-            <span>All Rights Reserved</span>
-          </p>
-          <div class="credits">
-            Designed by
-            <a
-              href="https://bootstrapmade.com/"
-              style="color: var(--accent-color); text-decoration: none"
-              >BootstrapMade</a
-            >
+      <div class="section2-footer container-fluid">
+        <div
+          class="row flex-column justify-content-center align-content-center p-4">
+          <div class="col-6 text-center">
+            <p class="text-white fw-bold">© Copyright GP All Rights Reserved</p>
+            <p class="text-white">
+              Designed by
+              <a
+                href="https://bootstrapmade.com"
+                target="_blank"
+                class="main-color color-change text-decoration-none"
+                >BootstrapMade</a
+              >
+            </p>
           </div>
         </div>
       </div>
