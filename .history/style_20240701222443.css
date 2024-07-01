@@ -187,7 +187,7 @@ section,
   .navmenu .dropdown ul {
     margin: 0;
     padding: 10px 0;
-    background: #ffffff;
+    background: var(--nav-dropdown-background-color);
     display: block;
     position: absolute;
     visibility: hidden;
@@ -208,7 +208,7 @@ section,
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
-    color: #212529;
+    color: var(--nav-dropdown-color);
   }
 
   .navmenu .dropdown ul a i {
@@ -273,7 +273,7 @@ section,
 
   .navmenu a,
   .navmenu a:focus {
-    color: #212529;
+    color: var(--nav-dropdown-color);
     padding: 10px 20px;
     font-family: var(--nav-font);
     font-size: 17px;
@@ -322,7 +322,7 @@ section,
     z-index: 99;
     padding: 10px 0;
     margin: 10px 20px;
-    background-color: #ffffff;
+    background-color: var(--nav-dropdown-background-color);
     border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
     box-shadow: none;
     transition: all 0.5s ease-in-out;

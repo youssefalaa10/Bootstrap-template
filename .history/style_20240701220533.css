@@ -26,7 +26,7 @@ body {
 
 a {
   color: #ffc451;
-  text-decoration: none !important;
+  text-decoration: none;
   transition: 0.3s;
 }
 
@@ -51,14 +51,11 @@ section,
   --background-color: rgba(0, 0, 0, 0.8);
   --heading-color: #ffffff;
   --contrast-color: #ffffff;
-  color: var(--my-default-color);
+  color: var(--default-color);
+  background-color: var(--dark-background-color);
   padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
-}
-
-.header.sticky {
-  background-color: #060606;
 }
 
 .header .logo {
@@ -181,13 +178,13 @@ section,
   .navmenu li:hover > a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: #ffc451;
+    color: var(--nav-hover-color);
   }
 
   .navmenu .dropdown ul {
     margin: 0;
     padding: 10px 0;
-    background: #ffffff;
+    background: var(--nav-dropdown-background-color);
     display: block;
     position: absolute;
     visibility: hidden;
@@ -208,7 +205,7 @@ section,
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
-    color: #212529;
+    color: var(--nav-dropdown-color);
   }
 
   .navmenu .dropdown ul a i {
@@ -218,7 +215,7 @@ section,
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
   .navmenu .dropdown ul li:hover > a {
-    background-color: #ffc451;
+    background-color: var(--nav-dropdown-hover-color);
   }
 
   .navmenu .dropdown:hover > ul {
@@ -264,7 +261,7 @@ section,
     padding: 10px 0;
     margin: 0;
     border-radius: 6px;
-    background-color: #ffffff;
+    background-color: var(--nav-mobile-background-color);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -273,7 +270,7 @@ section,
 
   .navmenu a,
   .navmenu a:focus {
-    color: #212529;
+    color: var(--nav-dropdown-color);
     padding: 10px 20px;
     font-family: var(--nav-font);
     font-size: 17px;
@@ -322,7 +319,7 @@ section,
     z-index: 99;
     padding: 10px 0;
     margin: 10px 20px;
-    background-color: #ffffff;
+    background-color: var(--nav-dropdown-background-color);
     border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
     box-shadow: none;
     transition: all 0.5s ease-in-out;

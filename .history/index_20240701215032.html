@@ -19,139 +19,194 @@
       href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" />
   </head>
   <body>
-    <!-- header section -->
+    <!-- ====== Header Section ======== -->
 
-    <header id="header" class="header d-flex align-items-center fixed-top">
+    <!-- header -->
+    <header class="w-100" id="home">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container p-2">
+          <div class="d-flex w-100 align-items-center justify-content-between">
+            <div class="w-25">
+              <a
+                href="index.html"
+                class="logo d-flex align-items-center justify-content-start text-white text-decoration-none">
+                <h1>GP</h1>
+                <span class="main-color fw-bolder">.</span>
+              </a>
+            </div>
+
+            <div class="w-30 d-flex align-items-center justify-content-end">
+              <button
+                class="btn btn-outline-warning text-white pe-4 ps-4"
+                type="submit">
+                Get Started
+              </button>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div
+                class="collapse navbar-collapse m-auto"
+                id="navbarSupportedContent">
+                <ul
+                  class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">
+                      Home
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Team">Team</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#home">Dropdown 1</a>
+                      </li>
+
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">
+                          Deep Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#">Dropdown 1</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Dropdown 2</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Dropdown 3</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Dropdown 4</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Dropdown 5</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                      <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                      <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div
-        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-        <a
-          href="index.html"
-          class="logo d-flex align-items-center me-auto me-lg-0">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
-          <h1 class="sitename">GP</h1>
-          <span>.</span>
-        </a>
-
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li>
-              <a href="#hero" class="active">Home<br /></a>
-            </li>
-            <li><a href="#about" class="">About</a></li>
-            <li><a href="#services" class="">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#team">Team</a></li>
-            <li class="dropdown">
-              <a href="#"
-                ><span>Dropdown</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i
-              ></a>
-              <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Dropdown</span>
-                    <i class="bi bi-chevron-down toggle-dropdown"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
-
-        <a class="btn-getstarted" href="index.html#about">Get Started</a>
+        class="layer h-100 pb-5 pt-5 d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="header-content col-xl-6 col-lg-8 text-white">
+              <h2 class="">
+                Powerful Digital Solutions With GP<span
+                  class="main-color fw-bolder"
+                  >.</span
+                >
+              </h2>
+              <p>We are team of talented digital marketers</p>
+            </div>
+            <div
+              class="header-icons col-12 row justify-content-center align-items-center g-2">
+              <div class="item-header col-xl-2 col-md-4">
+                <div
+                  class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
+                  <i
+                    class="bi bi-binoculars fa-solid fa-binoculars main-color"></i>
+                  <h3>
+                    <a href="index.html" class="text-white text-decoration-none"
+                      >Lorem ipsum
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="item-header col-xl-2 col-md-4">
+                <div
+                  class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
+                  <i class="bi bi-bullseye fa-solid fa-bullseye main-color"></i>
+                  <h3>
+                    <a href="index.html" class="text-white text-decoration-none"
+                      >Dolor Sitema</a
+                    >
+                  </h3>
+                </div>
+              </div>
+              <div class="item-header col-xl-2 col-md-4">
+                <div
+                  class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
+                  <i
+                    class="bi bi-fullscreen-exit fa-solid fa-compress main-color"></i>
+                  <h3>
+                    <a href="index.html" class="text-white text-decoration-none"
+                      >Sedare Perspiciatis</a
+                    >
+                  </h3>
+                </div>
+              </div>
+              <div class="item-header col-xl-2 col-md-4">
+                <div
+                  class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
+                  <i
+                    class="bi bi-card-list fa-regular fa-address-card main-color"></i>
+                  <h3>
+                    <a href="index.html" class="text-white text-decoration-none"
+                      >Magni Dolores</a
+                    >
+                  </h3>
+                </div>
+              </div>
+              <div class="item-header col-xl-2 col-md-4">
+                <div
+                  class="box-icon d-flex flex-column justify-content-center align-content-center p-4 border border-1">
+                  <i class="bi bi-gem fa-regular fa-gem main-color"></i>
+                  <h3>
+                    <a href="index.html" class="text-white text-decoration-none"
+                      >Nemos Enimade</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
-    <!-- header section -->
-
-    <!-- ====== hero Section ======== -->
-
-    <section id="hero" class="hero section dark-background">
-      <img
-        src="assets/images/hero-bg.jpg"
-        alt=""
-        data-aos="fade-in"
-        class="aos-init aos-animate" />
-
-      <div class="container">
-        <div
-          class="row justify-content-center text-center aos-init aos-animate"
-          data-aos="fade-up"
-          data-aos-delay="100">
-          <div class="col-xl-6 col-lg-8">
-            <h2>Powerful Digital Solutions With GP<span>.</span></h2>
-            <p>We are team of talented digital marketers</p>
-          </div>
-        </div>
-
-        <div
-          class="row gy-4 mt-5 justify-content-center aos-init aos-animate"
-          data-aos="fade-up"
-          data-aos-delay="200">
-          <div
-            class="col-xl-2 col-md-4 aos-init aos-animate"
-            data-aos="fade-up"
-            data-aos-delay="300">
-            <div class="icon-box">
-              <i class="bi bi-binoculars"></i>
-              <h3><a href="">Lorem Ipsum</a></h3>
-            </div>
-          </div>
-          <div
-            class="col-xl-2 col-md-4 aos-init aos-animate"
-            data-aos="fade-up"
-            data-aos-delay="400">
-            <div class="icon-box">
-              <i class="bi bi-bullseye"></i>
-              <h3><a href="">Dolor Sitema</a></h3>
-            </div>
-          </div>
-          <div
-            class="col-xl-2 col-md-4 aos-init aos-animate"
-            data-aos="fade-up"
-            data-aos-delay="500">
-            <div class="icon-box">
-              <i class="bi bi-fullscreen-exit"></i>
-              <h3><a href="">Sedare Perspiciatis</a></h3>
-            </div>
-          </div>
-          <div
-            class="col-xl-2 col-md-4 aos-init aos-animate"
-            data-aos="fade-up"
-            data-aos-delay="600">
-            <div class="icon-box">
-              <i class="bi bi-card-list"></i>
-              <h3><a href="">Magni Dolores</a></h3>
-            </div>
-          </div>
-          <div
-            class="col-xl-2 col-md-4 aos-init aos-animate"
-            data-aos="fade-up"
-            data-aos-delay="700">
-            <div class="icon-box">
-              <i class="bi bi-gem"></i>
-              <h3><a href="">Nemos Enimade</a></h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- end of hero section -->
+    <!-- end of header section -->
 
     <!-- ====About Section ========-->
     <section id="about" class="about section">
